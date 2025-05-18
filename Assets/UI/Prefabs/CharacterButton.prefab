@@ -92,12 +92,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 30
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 20
-  m_fontSizeMax: 30
+  m_fontSizeMin: 30
+  m_fontSizeMax: 40
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -146,6 +146,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7619958525893501314}
   - component: {fileID: 6594290082169332313}
+  - component: {fileID: -1650309833672894825}
+  - component: {fileID: 7750599168646611738}
   - component: {fileID: 5764868952737156407}
   - component: {fileID: 2245138418047105960}
   m_Layer: 5
@@ -185,6 +187,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3195449622038034019}
   m_CullTransparentMesh: 1
+--- !u!114 &-1650309833672894825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3195449622038034019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a88d810f095b6e4b97dab03ae8d7896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 9024693956525728310}
+  _progress: {fileID: 6460079999945288696}
+  _button: {fileID: 2245138418047105960}
+  _name: {fileID: 1149173413486547585}
+--- !u!114 &7750599168646611738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3195449622038034019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c574746ceb5ac35438696e6e47a13cfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchStrength: 0.1
+  _duration: 0.15
 --- !u!114 &5764868952737156407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,6 +498,10 @@ PrefabInstance:
       propertyPath: m_Value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7991391839508431619, guid: 7ca631878175ae44885969dd054d4829, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8522953482463666708, guid: 7ca631878175ae44885969dd054d4829, type: 3}
       propertyPath: m_Name
       value: Progress Bar Green
@@ -480,3 +516,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4462381574167617221, guid: 7ca631878175ae44885969dd054d4829, type: 3}
   m_PrefabInstance: {fileID: 3981727436407777531}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6460079999945288696 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7991391839508431619, guid: 7ca631878175ae44885969dd054d4829, type: 3}
+  m_PrefabInstance: {fileID: 3981727436407777531}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
