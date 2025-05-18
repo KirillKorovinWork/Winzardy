@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00800ef79f12a8a41ac33de101a88375, type: 3}
+  m_Name: Character_ 9
+  m_EditorClassIdentifier: 
+  Id: 009
+  LocalizedName: Character_9
+  IconSmall: {fileID: 2739099753214677588, guid: 7ebbe8a66c8166d45a87ef62481e8f41, type: 3}
+  IconBig: {fileID: 2739099753214677588, guid: 7ebbe8a66c8166d45a87ef62481e8f41, type: 3}
+  Level: 5
+  CurrentExp: 4
+  ExpToNext: 10
